@@ -5,7 +5,7 @@ get '/' do
 	unless request.env['HTTP_PERMISO'] 
 		'Sin Permiso'
 	else
-		request.env['HTTP_PERMISO']
+		'Si lo logramos!'
 	end
 end 
 
